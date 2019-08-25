@@ -7,7 +7,7 @@ spring:
     config:
       server:
         git:
-          uri: ${user.dir}/springcloud-config/config-file/123
+          uri: https://github.com/caiqibin001/123
           search-paths: {application}
 eureka:
   client:
